@@ -1,0 +1,46 @@
+---
+title: "README"
+author: "James Adler Kelly Goles Dexter Offer, George Saunderson"
+date: "April 18, 2018"
+output: html_document
+---
+================================
+
+
+Economics 386 Data Cleaning Project #1
+Version 1.0
+
+
+===================================
+
+
+In this project we were assigned two tasks with two different data sets. 
+
+Task one’s data was a number of different movement variables that were then used to determine different kinds of movements.  Task one consisted of pasting a training set of data, a testing set of data, a set of column names, a set of output activity types, and individual IDs into a new and tighty data set. We also selected only the means and standard deviations of every different movement type. Finally we took the average of each variable for each activity and each subject.
+						
+Task two consisted of reading a data set (Panel8589.txt) into R. We then used summary statistics to cross check the numbers with the study to identify which variable was what. After we converted a number of different categories to different units. Finally we created two new data sets. One that averages all variables for each plant across the the 11 year period and one that aggregates all variables with in a particular year across all plants
+
+=================================		
+
+‘CodeBook.md’: The codebook is split into task one and task two but explains all of the variables for each as well as the processes
+
+‘README.md’: This file
+
+‘Raw_Data.csv’: This is the CSV we got after using excel as an intermediary 
+
+‘Cleaning1.R’: The R Script that completes Task One
+
+‘Cleaning2.R’: The R Script that completes Task Two
+
+‘Tidy1.txt’: The Data Set Cleaning1.R creates
+
+‘Tidy2.txt’: The Data Set Cleaning2.R creates
+
+‘Tidy2_a.txt’: This is task two’s tidy data set that averages all variables for each plant across each year
+
+‘Tidy2_b.txt’: This is task two’s tidy data set that aggregates all variables with in a particular year across all 
+plants
+
+
+			
+		
