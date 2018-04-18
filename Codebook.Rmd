@@ -1,9 +1,0 @@
----
-title: "Codebook"
-author: "doffer"
-date: "4/17/2018"
-output: html_document
----
-
-
-Reference “codebook.pdf” file in repository. 
